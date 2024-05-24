@@ -1,4 +1,4 @@
-const {Blog} = require('../models/blogSchema')
+const {Blog} = require('../models')
 const app = require("express").Router()
 
 app.get('/', async (req, res) => {
