@@ -1,0 +1,31 @@
+GET http://localhost:3001/api/blogs
+
+###
+
+GET http://localhost:3001/api/blogs/1
+
+
+###
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+    "title": "New Blog Post",
+    "author": "John Doe",
+    "url": "https://example.com",
+    "likes": 0
+}
+
+###
+DELETE http://localhost:3001/api/blogs/14
+
+
+###
+
+PUT http://localhost:3001/api/blogs/18
+Content-Type: application/json
+
+{
+    "likes":10
+}
