@@ -29,3 +29,32 @@ Content-Type: application/json
 {
     "likes":10
 }
+
+###
+
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "username":"sharmi",
+  "name":"sharmila",
+  "password":"123"
+}
+
+###
+GET http://localhost:3001/api/users
+
+###
+
+PUT http://localhost:3001/api/users/1
+Content-Type: application/json
+
+{
+"username":"sharmi657"
+}
+
+
+
+
+
+

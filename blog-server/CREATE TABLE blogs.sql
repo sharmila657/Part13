@@ -11,3 +11,5 @@ SELECT * FROM blogs;
 -- INSERT INTO blogs (author, url, title, likes) VALUES ('tej','http//tej.com','post', 0);
 
 -- DELETE FROM blogs WHERE id = 5;
+
+SELECT * FROM users;
